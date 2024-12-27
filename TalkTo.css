@@ -1,1 +1,18 @@
-.header-container {}
+.main-one {
+    top: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    padding: 25px;
+}
+
+.div-one {
+    top: 50px;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    background-image: url("./Pictures/testj.gif");
+    background-size: cover;
+    height: 550px;
+}
