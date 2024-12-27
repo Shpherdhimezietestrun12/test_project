@@ -3,13 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="TalkTo.css">
     <title>TalkTo</title>
+    <link rel="stylesheet" href="TalkTo.css">
+    <script>
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        const isWindows = /Windows/i.test(navigator.userAgent);
+        const screenWidth = window.matchMedia("(max-width: 768)");
+
+        if (isAndroid) {
+            window.location.href = './For Phone/home.html';
+        } else if (isWindows) {
+            // This is to continue displaying the current file 
+        } else if (screenWidth.matches) {
+            window.location.href = './For Phone/home.html';
+        } else {
+            // This is to continue displaying the current file 
+        }
+    </script>
+
 
 </head>
 
 <body>
-    <header class="header-container"></header>
+    <main class="main-one"></main>
+    <div class="div-one"></div>
 
 </body>
 
