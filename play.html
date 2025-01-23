@@ -3,16 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Get premium here on TalkTo</title>
+    <title>Get premium here on TalkTo - Get TalkTo app now...</title>
     <link rel="icon" type="image/x-icon" href="./Logo/icons8-talking-100.png">
     <link rel="stylesheet" href="TalkTo.css">
+
 </head>
 
 <body>
+    <img src="./Pictures/icons8-chat-bubble-100.png" class="pic-last">
+    <script>
+        const img = document.querySelector(".pic-last");
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        const isWindows = /Windows/i.test(navigator.userAgent);
+        const screenWidth = window.matchMedia("(max-width: 768)");
+
+        if (isAndroid) {
+            img.classList.add('phone-last');
+        } else if (isWindows) {
+            // This is to continue displaying the current file 
+        } else if (screenWidth.matches) {
+            img.classList.add('Phone-last');
+        } else {
+            // This is to continue displaying the current file 
+        }
+    </script>
     <main class="main-one">
+
+
+
         <nav class="one-one">
             <ul>
-                <li class="one-two">Want to become a part of our commuity here on TalkTo?</li>
+                <li class="one-two">
+                    <nav class="second-nav">
+                        <ul>
+                            <li class="nav-one">Want to be a part of our</li>
+                            <li class="nav-two">Community here on TalkTo?</li>
+                        </ul>
+                    </nav>
+                </li>
                 <li><img src="./Pictures/8 - Copy.webp" class="pic-one"></li>
                 <li><button class="one-three">Apply now</button></li>
 
@@ -21,14 +49,12 @@
 
     </main>
     <div class="div-one">
-        <video autoplay muted loop>
-            <source src="./Representations/play_three.mp4" type="video/mp4">
-        </video>
     </div>
 
 
 
-    <img src="./Pictures/icons8-chat-bubble-100.png" class="pic-last">
+
+    <script src="TalkTo.js"></script>
 </body>
 
 </html>
