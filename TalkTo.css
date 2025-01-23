@@ -13,29 +13,73 @@ body {
     height: 10px;
 }
 
-.div-one {
-    top: 60px;
+.main-two {
+    top: 0;
     right: 0;
     width: 100%;
     position: absolute;
-    height: 520px;
+    background-color: black;
+    padding: 25px;
+    height: 70px;
 }
 
-.div-one video {
+.div-one {
+    top: 130px;
+    background-image: url('./Representations/one.gif');
+    right: 0;
     width: 100%;
-    object-fit: cover;
+    position: absolute;
+    height: 1400px;
+    background-size: cover;
+    /* Add this property */
+}
+
+.div-one.one {
+    background-image: url('./Representations/one.gif');
+}
+
+.div-one.two {
+    background-image: url('./Representations/two.gif');
+}
+
+.div-one.three {
+    background-image: url('./Representations/three.gif');
+}
+
+.div-one.download {
+    background-image: url('./Representations/download.gif');
 }
 
 .one-one {
     text-decoration: none;
-    margin-top: -60px;
-    text-align: center;
+    margin-top: -215px;
+    padding: 30px;
 }
 
 .one-one li {
     display: inline-block;
-    padding: 15px;
     list-style: none;
+    padding: 70px;
+}
+
+.second-nav {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.second-nav li {
+    display: list-item;
+}
+
+.nav-one {
+    font-size: 40px;
+    margin-left: -150px;
+}
+
+.nav-two {
+    margin-top: -150px;
+    font-size: 40px;
+    margin-left: -150px;
 }
 
 .one-two {
@@ -46,20 +90,20 @@ body {
 }
 
 .pic-one {
-    zoom: 0.5;
+    zoom: 1.0;
     margin-bottom: -50px;
 }
 
 .one-three {
     background-color: transparent;
     border-color: green;
-    border-radius: 7px;
+    border-radius: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 26px;
     color: green;
-    width: 110px;
-    height: 33px;
-    border-width: 2px;
+    width: 165px;
+    height: 75px;
+    border-width: 4px;
 }
 
 .pic-last {
@@ -71,12 +115,11 @@ body {
     margin-bottom: 20px;
 }
 
-
-/* Media query for phone-sized screens */
-
-@media only screen and (max-width: 768px) {
-    .pic-last {
-        zoom: 1.8;
-        /* Reduce the size of the image on phone screens */
-    }
+.phone-last {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    zoom: 2;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
