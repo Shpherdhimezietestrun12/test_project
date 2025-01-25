@@ -27,7 +27,7 @@ body {
     background-image: url('./Representations/image-present/image-eight.webp');
     width: 100%;
     position: absolute;
-    height: 1050px;
+    height: 900px;
     background-size: cover;
     /* Add this property */
 }
