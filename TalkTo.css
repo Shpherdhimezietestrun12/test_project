@@ -26,6 +26,7 @@ body {
     top: 130px;
     background-image: url('./Representations/image-present/image-eight.webp');
     width: 100%;
+    right: 0;
     position: absolute;
     height: 900px;
     background-size: cover;
