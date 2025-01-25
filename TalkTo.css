@@ -111,22 +111,23 @@
     }
     
     .input-one {
-        height: 30px;
+        height: 100px;
         color: green;
-        width: 1100px;
-        font-size: 17px;
+        width: 700px;
+        font-size: 22px;
         background-color: black;
         border-radius: 20px;
-        margin-left: 7.3%;
+        margin-left: 4.5%;
         border-width: 2px;
         border-color: transparent;
-        margin-top: 1370px;
+        margin-top: 1330px;
         /* Add this line */
         padding: 20px;
     }
     
     .input-one::placeholder {
         color: #0b451b;
+        font-size: 22px;
     }
     
     .input-one:hover,
@@ -139,22 +140,22 @@
     }
     
     .button-two {
-        width: 130px;
-        height: 55px;
+        width: 150px;
+        height: 100px;
         position: absolute;
         font-style: italic;
-        font-size: 15px;
+        font-size: 22px;
         font-weight: bolder;
         background-color: green;
         border-radius: 20px;
         border-width: 0px;
-        margin-top: 1379px;
-        left: 1105px;
+        margin-top: 1353px;
+        left: 650px;
     }
     
     .bubbles {
-        zoom: 0.7;
-        margin-left: 5px;
+        zoom: 1.2;
+        margin-left: -15px;
     }
     /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     
