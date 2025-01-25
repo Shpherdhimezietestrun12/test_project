@@ -26,6 +26,7 @@ body {
     top: 130px;
     background-image: url('./Representations/image-present/image-eight.webp');
     right: 0;
+    left: 0;
     width: 100%;
     position: absolute;
     height: 1800px;
@@ -35,7 +36,7 @@ body {
 
 .one-one {
     text-decoration: none;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-left: 60px;
     text-align: start;
 }
@@ -43,7 +44,7 @@ body {
 .one-one li {
     display: inline-block;
     list-style: none;
-    padding: 25px;
+    padding: 20px;
 }
 
 .second-nav {
@@ -95,16 +96,7 @@ body {
     position: fixed;
     right: 0;
     bottom: 0;
-    zoom: 0.8;
+    zoom: 1.5;
     margin-right: 30px;
     margin-bottom: 20px;
-}
-
-.phone-last {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    zoom: 2;
-    margin-right: 30px;
-    margin-bottom: 30px;
 }
