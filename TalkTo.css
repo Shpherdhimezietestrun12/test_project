@@ -100,3 +100,12 @@ body {
     margin-right: 30px;
     margin-bottom: 20px;
 }
+
+.num-one {
+    zoom: 1.0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    margin-right: 35px;
+    margin-bottom: 155px;
+}
