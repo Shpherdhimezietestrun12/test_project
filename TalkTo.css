@@ -1,111 +1,158 @@
-body {
-    background-color: black;
-    margin-bottom: 5000px;
-}
-
-.main-one {
-    top: 0;
-    right: 0;
-    width: 100%;
-    position: absolute;
-    background-color: black;
-    height: 10px;
-}
-
-.main-two {
-    top: 0;
-    right: 0;
-    width: 100%;
-    position: absolute;
-    background-color: black;
-    padding: 25px;
-    height: 70px;
-}
-
-.div-one {
-    top: 130px;
-    background-image: url('./Representations/image-present/image-eight.webp');
-    width: 100%;
-    right: 0;
-    left: 0;
-    position: absolute;
-    height: 1500px;
-    background-size: cover;
-    /* Add this property */
-}
-
-.one-one {
-    text-decoration: none;
-    margin-top: -40px;
-    margin-left: 60px;
-    text-align: start;
-}
-
-.one-one li {
-    display: inline-block;
-    list-style: none;
-    padding: 15px;
-}
-
-.second-nav {
-    text-decoration: none;
-}
-
-.second-nav li {
-    display: list-item;
-}
-
-.nav-one {
-    font-size: 40px;
-    margin-left: -150px;
-}
-
-.nav-two {
-    margin-top: -30px;
-    font-size: 40px;
-    margin-left: -150px;
-}
-
-.one-two {
-    font-size: 20px;
-    font-weight: bold;
-    color: green;
-    font-style: inherit;
-}
-
-.pic-one {
-    zoom: 1.0;
-    margin-bottom: -30px;
-}
-
-.one-three {
-    background-color: transparent;
-    border-color: green;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 26px;
-    color: green;
-    width: 165px;
-    height: 75px;
-    position: absolute;
-    border-width: 4px;
-    margin-top: -45px;
-}
-
-.pic-last {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    zoom: 1.7;
-    margin-right: 30px;
-    margin-bottom: 20px;
-}
-
-.num-one {
-    zoom: 0.9;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    margin-right: 35px;
-    margin-bottom: 165px;
-}
+    body {
+        background-color: black;
+        margin-bottom: 5000px;
+    }
+    
+    .main-one {
+        top: 0;
+        right: 0;
+        width: 100%;
+        position: absolute;
+        background-color: black;
+        height: 10px;
+    }
+    
+    .main-two {
+        top: 0;
+        right: 0;
+        width: 100%;
+        position: absolute;
+        background-color: black;
+        padding: 25px;
+        height: 70px;
+    }
+    
+    .div-one {
+        top: 130px;
+        background-image: url('./Representations/image-present/image-eight.webp');
+        width: 100%;
+        right: 0;
+        left: 0;
+        position: absolute;
+        height: 1500px;
+        background-size: cover;
+        /* Add this property */
+    }
+    
+    .one-one {
+        text-decoration: none;
+        margin-top: -40px;
+        margin-left: 60px;
+        text-align: start;
+    }
+    
+    .one-one li {
+        display: inline-block;
+        list-style: none;
+        padding: 15px;
+    }
+    
+    .second-nav {
+        text-decoration: none;
+    }
+    
+    .second-nav li {
+        display: list-item;
+    }
+    
+    .nav-one {
+        font-size: 40px;
+        margin-left: -150px;
+    }
+    
+    .nav-two {
+        margin-top: -30px;
+        font-size: 40px;
+        margin-left: -150px;
+    }
+    
+    .one-two {
+        font-size: 20px;
+        font-weight: bold;
+        color: green;
+        font-style: inherit;
+    }
+    
+    .pic-one {
+        zoom: 1.0;
+        margin-bottom: -30px;
+    }
+    
+    .one-three {
+        background-color: transparent;
+        border-color: green;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 26px;
+        color: green;
+        width: 165px;
+        height: 75px;
+        position: absolute;
+        border-width: 4px;
+        margin-top: -45px;
+    }
+    
+    .pic-last {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        zoom: 1.7;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .num-one {
+        zoom: 0.9;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        margin-right: 35px;
+        margin-bottom: 165px;
+    }
+    
+    .input-one {
+        height: 30px;
+        color: green;
+        width: 1100px;
+        font-size: 17px;
+        background-color: black;
+        border-radius: 20px;
+        margin-left: 7.3%;
+        border-width: 2px;
+        border-color: transparent;
+        margin-top: 1370px;
+        /* Add this line */
+        padding: 20px;
+    }
+    
+    .input-one::placeholder {
+        color: #0b451b;
+    }
+    
+    .input-one:hover,
+    .input-one:focus {
+        border-color: green;
+        outline: none;
+        /* Added this line */
+        box-shadow: 0 0 0 0px green;
+        /* Added this line */
+    }
+    
+    .button-two {
+        width: 130px;
+        height: 55px;
+        position: absolute;
+        font-style: italic;
+        font-size: 15px;
+        font-weight: bolder;
+        background-color: green;
+        border-radius: 20px;
+        border-width: 0px;
+        margin-top: 1379px;
+        left: 1105px;
+    }
+    
+    .bubbles {
+        zoom: 0.7;
+        margin-left: 5px;
+    }
