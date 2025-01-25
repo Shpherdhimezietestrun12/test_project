@@ -28,7 +28,7 @@ body {
     width: 100%;
     right: 0;
     position: absolute;
-    height: 900px;
+    height: 1200px;
     background-size: cover;
     /* Add this property */
 }
@@ -43,7 +43,7 @@ body {
 .one-one li {
     display: inline-block;
     list-style: none;
-    padding: 20px;
+    padding: 15px;
 }
 
 .second-nav {
@@ -60,7 +60,7 @@ body {
 }
 
 .nav-two {
-    margin-top: -50px;
+    margin-top: -45px;
     font-size: 40px;
     margin-left: -150px;
 }
