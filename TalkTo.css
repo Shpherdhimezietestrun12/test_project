@@ -9,7 +9,6 @@ body {
     width: 100%;
     position: absolute;
     background-color: black;
-    padding: 25px;
     height: 10px;
 }
 
@@ -25,45 +24,29 @@ body {
 
 .div-one {
     top: 130px;
-    background-image: url('./Representations/one.gif');
+    background-image: url('./Representations/image-present/image-eight.webp');
     right: 0;
     width: 100%;
     position: absolute;
-    height: 1400px;
+    height: 1800px;
     background-size: cover;
     /* Add this property */
 }
 
-.div-one.one {
-    background-image: url('./Representations/one.gif');
-}
-
-.div-one.two {
-    background-image: url('./Representations/two.gif');
-}
-
-.div-one.three {
-    background-image: url('./Representations/three.gif');
-}
-
-.div-one.download {
-    background-image: url('./Representations/download.gif');
-}
-
 .one-one {
     text-decoration: none;
-    margin-top: -215px;
-    padding: 30px;
+    margin-top: -50px;
+    margin-left: 60px;
+    text-align: start;
 }
 
 .one-one li {
     display: inline-block;
     list-style: none;
-    padding: 70px;
+    padding: 25px;
 }
 
 .second-nav {
-    margin-top: 10px;
     text-decoration: none;
 }
 
@@ -77,7 +60,7 @@ body {
 }
 
 .nav-two {
-    margin-top: -150px;
+    margin-top: -50px;
     font-size: 40px;
     margin-left: -150px;
 }
@@ -91,7 +74,7 @@ body {
 
 .pic-one {
     zoom: 1.0;
-    margin-bottom: -50px;
+    margin-bottom: -30px;
 }
 
 .one-three {
@@ -103,7 +86,9 @@ body {
     color: green;
     width: 165px;
     height: 75px;
+    position: absolute;
     border-width: 4px;
+    margin-top: -45px;
 }
 
 .pic-last {
