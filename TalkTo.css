@@ -120,7 +120,7 @@ body {
     margin-left: 4.5%;
     border-width: 2px;
     border-color: transparent;
-    margin-top: 1280px;
+    margin-top: -25px;
     /* Add this line */
     padding: 20px;
 }
@@ -128,6 +128,7 @@ body {
 .input-one::placeholder {
     color: #0b451b;
     font-size: 35px;
+    font-weight: bolder;
 }
 
 .input-one:hover,
@@ -149,7 +150,7 @@ body {
     background-color: green;
     border-radius: 20px;
     border-width: 0px;
-    margin-top: 1303px;
+    margin-top: -3px;
     left: 725px;
 }
 
@@ -160,6 +161,26 @@ body {
 .bubbles {
     zoom: 1.2;
     margin-left: -20px;
+}
+
+.nav-three {
+    text-decoration: none;
+    margin-top: 1250px;
+    font-size: 30px;
+    margin-left: 75px;
+}
+
+.nav-three li {
+    display: inline-block;
+    list-style: none;
+}
+
+.list-one {
+    color: green;
+}
+
+.list-three {
+    color: green;
 }
 
 
