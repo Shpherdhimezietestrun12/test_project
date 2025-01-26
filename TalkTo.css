@@ -473,3 +473,88 @@ body {
     margin-left: -85px;
     color: #14ff56;
 }
+
+.botton-dis-three {
+    width: 830px;
+    border-color: #14ff56;
+    height: 800px;
+    position: relative;
+    border-radius: 100px;
+    background-color: transparent;
+    margin-top: 400px;
+    margin-left: 60px;
+    overflow: hidden;
+}
+
+.last-twelve {
+    zoom: 0.5;
+    left: -10px;
+    position: relative;
+    top: -120px;
+}
+
+.last-one {
+    color: #14ff56;
+    font-size: 60px;
+    position: absolute;
+    font-weight: bolder;
+    z-index: 2;
+    margin-left: 60px;
+}
+
+.last-two {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    z-index: 2;
+    margin-left: -10px;
+    margin-top: 150px;
+}
+
+.last-two li {
+    list-style: none;
+}
+
+.last-four {
+    margin-left: -40px;
+}
+
+.last-five {
+    margin-left: -20px;
+    color: #14ff56;
+}
+
+.last-six {
+    margin-left: -50px;
+}
+
+.last-seven {
+    margin-left: -5px;
+}
+
+.last-eight {
+    margin-left: -80px;
+    color: #14ff56;
+}
+
+.last-nine {
+    margin-left: -180px;
+}
+
+.last-ten {
+    margin-left: -5px;
+}
+
+.last-eleven {
+    margin-left: -5px;
+    color: #14ff56;
+}
+
+.last-thirteen {
+    margin-left: -35px;
+}
+
+.last-four-teen {
+    margin-left: -210px;
+}
