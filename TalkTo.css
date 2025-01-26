@@ -69,7 +69,7 @@ body {
 .one-two {
     font-size: 20px;
     font-weight: bold;
-    color: #10d747;
+    color: #14ff56;
     font-style: inherit;
 }
 
@@ -84,7 +84,7 @@ body {
     border-radius: 10px;
     font-weight: bold;
     font-size: 26px;
-    color: #10d747;
+    color: #14ff56;
     width: 165px;
     height: 75px;
     position: absolute;
@@ -112,7 +112,7 @@ body {
 
 .input-one {
     height: 150px;
-    color: #10d747;
+    color: #14ff56;
     width: 840px;
     font-size: 35px;
     background-color: black;
@@ -147,7 +147,7 @@ body {
     font-style: italic;
     font-size: 30px;
     font-weight: bolder;
-    background-color: #10d747;
+    background-color: #14ff56;
     border-radius: 20px;
     border-width: 0px;
     margin-top: -3px;
@@ -176,11 +176,11 @@ body {
 }
 
 .list-one {
-    color: #10d747;
+    color: #14ff56;
 }
 
 .list-three {
-    color: #10d747;
+    color: #14ff56;
 }
 
 
@@ -230,25 +230,25 @@ body {
     color: #10d747;
     border-radius: 20px;
     font-weight: bolder;
-    border-color: #10d747;
+    border-color: #14ff56;
     background-color: transparent;
 }
 
 .botton-nine {
     width: 150px;
-    border-color: #10d747;
+    border-color: #14ff56;
     background-color: transparent;
     height: 80px;
     font-size: 38px;
     border-radius: 20px;
-    color: #10d747;
+    color: #14ff56;
     font-weight: bolder;
     margin-left: 400px;
 }
 
 .botton-display {
     width: 830px;
-    border-color: #10d747;
+    border-color: #14ff56;
     height: 800px;
     position: relative;
     border-radius: 100px;
@@ -266,7 +266,7 @@ body {
 }
 
 .cat-three {
-    color: #10d747;
+    color: #14ff56;
     font-size: 60px;
     position: absolute;
     font-weight: bolder;
@@ -298,7 +298,7 @@ body {
 
 .bold-one {
     margin-left: -110px;
-    color: #10d747;
+    color: #14ff56;
 }
 
 .bold-four {
@@ -307,7 +307,7 @@ body {
 
 .bold-five {
     margin-left: -520px;
-    color: #10d747;
+    color: #14ff56;
 }
 
 .basic-request {
@@ -328,7 +328,7 @@ body {
 
 .botton-dis-one {
     width: 830px;
-    border-color: #10d747;
+    border-color: #14ff56;
     height: 800px;
     position: relative;
     border-radius: 100px;
@@ -339,7 +339,7 @@ body {
 }
 
 .bot-one {
-    color: #10d747;
+    color: #14ff56;
     font-size: 60px;
     position: absolute;
     font-weight: bolder;
@@ -373,7 +373,7 @@ body {
 
 .bot-four {
     margin-left: -30px;
-    color: #10d747;
+    color: #14ff56
 }
 
 .bot-five {
@@ -386,14 +386,13 @@ body {
 
 .bot-seven {
     margin-left: -120px;
-    color: #10d747;
+    color: #14ff56;
 }
 
 .bot-eight {
-    margin-left: -150px;
+    margin-left: -130px;
 }
 
 .bot-nine {
     margin-left: -260px;
-    color: #10d747;
 }
