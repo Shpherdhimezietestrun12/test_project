@@ -69,7 +69,7 @@ body {
 .one-two {
     font-size: 20px;
     font-weight: bold;
-    color: green;
+    color: #10d747;
     font-style: inherit;
 }
 
@@ -80,11 +80,11 @@ body {
 
 .one-three {
     background-color: transparent;
-    border-color: green;
+    border-color: #10d747;
     border-radius: 10px;
     font-weight: bold;
     font-size: 26px;
-    color: green;
+    color: #10d747;
     width: 165px;
     height: 75px;
     position: absolute;
@@ -112,7 +112,7 @@ body {
 
 .input-one {
     height: 150px;
-    color: green;
+    color: #10d747;
     width: 840px;
     font-size: 35px;
     background-color: black;
@@ -147,7 +147,7 @@ body {
     font-style: italic;
     font-size: 30px;
     font-weight: bolder;
-    background-color: green;
+    background-color: #10d747;
     border-radius: 20px;
     border-width: 0px;
     margin-top: -3px;
@@ -176,11 +176,11 @@ body {
 }
 
 .list-one {
-    color: green;
+    color: #10d747;
 }
 
 .list-three {
-    color: green;
+    color: #10d747;
 }
 
 
@@ -227,28 +227,28 @@ body {
     width: 350px;
     height: 80px;
     font-size: 38px;
-    color: green;
+    color: #10d747;
     border-radius: 20px;
     font-weight: bolder;
-    border-color: green;
+    border-color: #10d747;
     background-color: transparent;
 }
 
 .botton-nine {
     width: 150px;
-    border-color: green;
+    border-color: #10d747;
     background-color: transparent;
     height: 80px;
     font-size: 38px;
     border-radius: 20px;
-    color: green;
+    color: #10d747;
     font-weight: bolder;
     margin-left: 400px;
 }
 
 .botton-display {
     width: 830px;
-    border-color: green;
+    border-color: #10d747;
     height: 800px;
     position: relative;
     border-radius: 100px;
@@ -266,7 +266,7 @@ body {
 }
 
 .cat-three {
-    color: green;
+    color: #10d747;
     font-size: 60px;
     position: absolute;
     font-weight: bolder;
@@ -289,16 +289,25 @@ body {
 }
 
 .bold-two {
-    margin-left: -110px;
+    margin-left: -40px;
 }
 
 .bold-three {
-    margin-left: -330px;
+    margin-left: -80px;
 }
 
 .bold-one {
-    margin-left: -160px;
-    color: green;
+    margin-left: -110px;
+    color: #10d747;
+}
+
+.bold-four {
+    margin-left: -130px;
+}
+
+.bold-five {
+    margin-left: -520px;
+    color: #10d747;
 }
 
 .basic-request {
@@ -307,7 +316,7 @@ body {
     position: absolute;
     z-index: 2;
     margin-top: 2250px;
-    margin-left: 70px;
+    margin-left: 45px;
 }
 
 .down-arrow {
@@ -319,7 +328,7 @@ body {
 
 .botton-dis-one {
     width: 830px;
-    border-color: green;
+    border-color: #10d747;
     height: 800px;
     position: relative;
     border-radius: 100px;
@@ -329,8 +338,62 @@ body {
     overflow: hidden;
 }
 
+.bot-one {
+    color: #10d747;
+    font-size: 60px;
+    position: absolute;
+    font-weight: bolder;
+    z-index: 2;
+    margin-left: 60px;
+}
+
 .cat-six {
     left: -10px;
     position: relative;
     margin-top: 0px;
+}
+
+.bot-two {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    z-index: 2;
+    margin-left: -10px;
+    margin-top: 150px;
+}
+
+.bot-two li {
+    list-style: none;
+}
+
+.bot-three {
+    margin-left: -160px;
+}
+
+.bot-four {
+    margin-left: -30px;
+    color: #10d747;
+}
+
+.bot-five {
+    margin-left: -160px;
+}
+
+.bot-six {
+    margin-left: -90px;
+}
+
+.bot-seven {
+    margin-left: -120px;
+    color: #10d747;
+}
+
+.bot-eight {
+    margin-left: -150px;
+}
+
+.bot-nine {
+    margin-left: -260px;
+    color: #10d747;
 }
