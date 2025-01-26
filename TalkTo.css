@@ -487,7 +487,7 @@ body {
 }
 
 .last-twelve {
-    zoom: 0.5;
+    zoom: 2.3;
     left: -10px;
     position: relative;
     top: -120px;
@@ -517,44 +517,36 @@ body {
 }
 
 .last-four {
-    margin-left: -40px;
+    margin-left: -210px;
 }
 
 .last-five {
-    margin-left: -20px;
+    margin-left: -170px;
     color: #14ff56;
 }
 
 .last-six {
-    margin-left: -50px;
-}
-
-.last-seven {
     margin-left: -5px;
 }
 
+.last-seven {
+    margin-left: -90px;
+}
+
 .last-eight {
-    margin-left: -80px;
+    margin-left: -170px;
     color: #14ff56;
 }
 
 .last-nine {
-    margin-left: -180px;
+    margin-left: -150px;
 }
 
 .last-ten {
-    margin-left: -5px;
+    margin-left: -210px;
 }
 
 .last-eleven {
-    margin-left: -5px;
+    margin-left: -250px;
     color: #14ff56;
-}
-
-.last-thirteen {
-    margin-left: -35px;
-}
-
-.last-four-teen {
-    margin-left: -210px;
 }
