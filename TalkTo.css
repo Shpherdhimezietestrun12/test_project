@@ -126,7 +126,7 @@ body {
 }
 
 .input-one::placeholder {
-    color: #0b451b;
+    color: #868686;
     font-size: 35px;
     font-weight: bolder;
 }
@@ -395,4 +395,81 @@ body {
 
 .bot-nine {
     margin-left: -260px;
+}
+
+.botton-dis-two {
+    width: 830px;
+    border-color: #14ff56;
+    height: 800px;
+    position: relative;
+    border-radius: 100px;
+    background-color: transparent;
+    margin-top: 400px;
+    margin-left: 60px;
+    overflow: hidden;
+}
+
+.menu-image {
+    left: -10px;
+    position: relative;
+    margin-top: 0px;
+    zoom: 1.4;
+}
+
+.menu-one {
+    color: #14ff56;
+    font-size: 60px;
+    position: absolute;
+    font-weight: bolder;
+    z-index: 2;
+    margin-left: 60px;
+}
+
+.menu-two {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    z-index: 2;
+    margin-left: -10px;
+    margin-top: 150px;
+}
+
+.menu-two li {
+    list-style: none;
+}
+
+.menu-ten {
+    margin-left: -220px;
+}
+
+.menu-three {
+    margin-left: -170px;
+    color: #14ff56;
+}
+
+.menu-four {
+    margin-left: -85px;
+}
+
+.menu-five {
+    margin-left: -50px;
+}
+
+.menu-six {
+    margin-left: -170px;
+    color: #14ff56;
+}
+
+.menu-seven {
+    margin-left: -130px;
+}
+
+.menu-eight {
+    margin-left: -50px;
+}
+
+.menu-nine {
+    margin-left: -85px;
+    color: #14ff56;
 }
