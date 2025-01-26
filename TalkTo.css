@@ -245,3 +245,58 @@ body {
     font-weight: bolder;
     margin-left: 400px;
 }
+
+.botton-display {
+    width: 830px;
+    border-color: green;
+    height: 800px;
+    position: relative;
+    border-radius: 100px;
+    background-color: transparent;
+    margin-top: 2400px;
+    margin-left: 90px;
+    overflow: hidden;
+}
+
+.cat-two {
+    zoom: 1.9;
+    left: -10px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.cat-three {
+    color: green;
+    font-size: 60px;
+    position: absolute;
+    font-weight: bolder;
+    z-index: 2;
+    margin-left: 60px;
+}
+
+.nav-ten {
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    z-index: 2;
+    margin-left: -10px;
+    margin-top: 150px;
+}
+
+.nav-ten li {
+    list-style: none;
+}
+
+.bold-two {
+    margin-left: -110px;
+}
+
+.bold-three {
+    margin-left: -330px;
+}
+
+.bold-one {
+    margin-left: -160px;
+    color: green;
+}
