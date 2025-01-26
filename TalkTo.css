@@ -368,11 +368,11 @@ body {
 }
 
 .bot-three {
-    margin-left: -160px;
+    margin-left: -230px;
 }
 
 .bot-four {
-    margin-left: -30px;
+    margin-left: -190px;
     color: #14ff56
 }
 
@@ -549,4 +549,23 @@ body {
 .last-eleven {
     margin-left: -250px;
     color: #14ff56;
+}
+
+h1 {
+    font-size: 65px;
+    color: #14ff56;
+    font-style: italic;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.table-set-one {}
+
+.table-set-one li {
+    list-style: none;
+}
+
+.button-setup {
+    width: 540px;
+    height: 180px;
 }
