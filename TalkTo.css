@@ -559,13 +559,145 @@ h1 {
     margin-top: 150px;
 }
 
-.table-set-one {}
+.table-set-one {
+    margin-left: 20px;
+}
 
 .table-set-one li {
     list-style: none;
+    padding: 10px;
 }
 
 .button-setup {
-    width: 540px;
-    height: 180px;
+    width: 660px;
+    height: 290px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: green;
+    background-color: rgba(0, 50, 0, 0.3);
+    /* translucent greenish-black background */
+    opacity: 0.7;
+    /* adjust transparency */
+    box-shadow: 0 0 10px rgba(0, 50, 0, 0.3);
+    /* blur effect with green mix */
+    backdrop-filter: blur(10px);
+    /* apply blur effect to background */
+}
+
+.button-setup-two {
+    width: 660px;
+    height: 290px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: green;
+    background-color: rgba(20, 20, 20, 0.2);
+    /* translucent dark gray background with a hint of white */
+    opacity: 0.7;
+    /* adjust transparency */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    /* blur effect with a white mix */
+    backdrop-filter: blur(10px);
+    /* apply blur effect to background */
+}
+
+.step-three {
+    color: #14ff56;
+    font-size: 25px;
+}
+
+.step-three li {
+    list-style: none;
+}
+
+.step-two {
+    color: #14ff56;
+    font-size: 25px;
+}
+
+.step-two li {
+    list-style: none;
+}
+
+.step-one {
+    color: #14ff56;
+    font-size: 25px;
+}
+
+.step-one li {
+    list-style: none;
+}
+
+.test-one {
+    font-size: 29px;
+    color: #fbfffb;
+    margin-top: -70px;
+    margin-left: -340px;
+}
+
+.test-two {
+    font-size: 29px;
+    color: #fbfffb;
+    margin-top: -25px;
+    margin-left: -130px;
+}
+
+.test-three {
+    font-size: 29px;
+    color: #fbfffb;
+    margin-top: -70px;
+    margin-left: -80px;
+}
+
+.test-four {
+    margin-left: -200px;
+}
+
+.test-five {
+    margin-left: -60px;
+}
+
+.test-six {
+    margin-left: -80px;
+}
+
+.test-seven {
+    margin-left: -405px;
+}
+
+.test-eight {
+    margin-left: -150px;
+}
+
+.test-nine {
+    margin-left: -200px;
+}
+
+.test-or {
+    margin-left: -170px;
+}
+
+.test-and {
+    margin-left: -200px;
+}
+
+.half-wit {
+    margin-top: -30px;
+    margin-left: 200px;
+    zoom: 3;
+}
+
+.play-time {
+    zoom: 0.6;
+    position: absolute;
+    margin-left: -1300px;
+    margin-top: 00px;
+    border-radius: 30px;
+}
+
+.play-up {
+    zoom: 1.4;
+    position: absolute;
+    margin-left: -620px;
+    margin-top: 100px;
+    border-radius: 30px
 }
