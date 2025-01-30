@@ -687,10 +687,29 @@ h1 {
 }
 
 .play-time {
-    zoom: 0.6;
+    zoom: 0.9;
     position: absolute;
-    margin-left: -1300px;
-    margin-top: 00px;
+    margin-left: -1000px;
+    margin-top: 50px;
+    display: ;
+    border-radius: 30px;
+}
+
+.play-time-two {
+    zoom: 0.9;
+    position: absolute;
+    margin-left: -1050px;
+    margin-top: 50px;
+    display: none;
+    border-radius: 30px;
+}
+
+.play-time-three {
+    zoom: 0.9;
+    position: absolute;
+    margin-left: -950px;
+    margin-top: 50px;
+    display: none;
     border-radius: 30px;
 }
 
