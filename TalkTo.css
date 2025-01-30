@@ -665,7 +665,7 @@ h1 {
 }
 
 .test-eight {
-    margin-left: -150px;
+    margin-left: -160px;
 }
 
 .test-nine {
@@ -673,7 +673,7 @@ h1 {
 }
 
 .test-or {
-    margin-left: -170px;
+    margin-left: -180px;
 }
 
 .test-and {
@@ -700,4 +700,15 @@ h1 {
     margin-left: -620px;
     margin-top: 100px;
     border-radius: 30px
+}
+
+.num-test {
+    position: fixed;
+    right: 0;
+    display: none;
+    bottom: 0;
+    zoom: 0.7;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    border-radius: 900px;
 }
