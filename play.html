@@ -6,6 +6,21 @@
     <title>Get premium here on TalkTo - Get TalkTo app now...</title>
     <link rel="icon" type="image/x-icon" href="./Logo/icons8-talking-100.png">
     <link rel="stylesheet" href="TalkTo.css">
+    <script>
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        const isWindows = /Windows/i.test(navigator.userAgent);
+        const screenWidth = window.matchMedia("(max-width: 768)");
+
+        if (isAndroid) {
+            // this is a default for computer display..
+        } else if (isWindows) {
+            // window.location.href = './For Computer/Home_page.html';
+        } else if (screenWidth.matches) {
+            // Display what's already there... for computer display
+        } else {
+            // window.location.href = './For Computer/Home_page.html';
+        }
+    </script>
 
 </head>
 
@@ -26,7 +41,7 @@
                     </nav>
                 </li>
                 <li><img src="./Pictures/8 - Copy.webp" class="pic-one"></li>
-                <li><button class="one-three">Apply now</button></li>
+                <li><button class="one-three" onclick="window.location.href='sign_up_page.html';">Apply now</button></li>
 
             </ul>
         </nav>
@@ -48,38 +63,38 @@
     <div class="div-two">
         <nav class="nav-four">
             <ul>
-                <li><button class="botton-one">Medical Science</button></li>
-                <li><button class="botton-two">Computer Science</button></li>
+                <li><button class="botton-one" onclick="window.location.href='medical_science.html';">Medical Science</button></li>
+                <li><button class="botton-two" onclick="window.location.href='computer_science.html';">Computer Science</button></li>
             </ul>
         </nav>
 
 
         <nav class="nav-five">
             <ul>
-                <li><button class="botton-three">Legal Advice</button></li>
-                <li><button class="botton-four">Clothing sales</button></li>
+                <li><button class="botton-three" onclick="window.location.href='Legal_advice.html';">Legal Advice</button></li>
+                <li><button class="botton-four" onclick="window.location.href='clothing_service.html';">Clothing sales</button></li>
             </ul>
         </nav>
 
 
         <nav class="nav-seven">
             <ul>
-                <li><button class="botton-seven">Catering services</button></li>
-                <li><button class="botton-eight">Advertisments</button></li>
+                <li><button class="botton-seven" onclick="window.location.href='catering_services.html';">Catering services</button></li>
+                <li><button class="botton-eight" onclick="window.location.href='advertsement.html';">Advertisments</button></li>
             </ul>
         </nav>
         <nav class="nav-six">
             <ul>
-                <li><button class="botton-five">Accounting</button></li>
-                <li><button class="botton-six">Web designs</button></li>
+                <li><button class="botton-five" onclick="window.location.href='Accounting.html';">Accounting</button></li>
+                <li><button class="botton-six" onclick="window.location.href='web_design.html';">Web designs</button></li>
             </ul>
         </nav>
 
-        <button class="botton-nine">more...</button>
+        <button class="botton-nine" onclick="window.location.href='more.html';">more...</button>
     </div>
     <p class="basic-request">Basic things you might want to ask...</p>
 
-    <button class="botton-display"><p class="cat-three">Catering Services</p>
+    <button class="botton-display" onclick="window.location.href='catering_services.html';"><p class="cat-three">Catering Services</p>
         <nav class="nav-ten">
         <ul>
             <li>I am in need of a Specialized catering services</li>
@@ -97,7 +112,7 @@
     <img src="./Pictures/icons8-double-down-10000.png" class="down-arrow">
 
 
-    <button class="botton-dis-one">
+    <button class="botton-dis-one" onclick="window.location.href='medical_science.html';">
         <p class="bot-one">Medical Services</p>
         <nav class="bot-two">
         <ul>
@@ -117,7 +132,7 @@
     <img src="./Pictures/icons8-double-down-10000.png" class="down-arrow">
 
 
-    <button class="botton-dis-two">   
+    <button class="botton-dis-two" onclick="window.location.href='clothing_service.html';">   
 
         <p class="menu-one">Clothing Sales</p>
         <nav class="menu-two">
@@ -142,7 +157,7 @@
     <img src="./Pictures/icons8-double-down-10000.png" class="down-arrow">
 
 
-    <button class="botton-dis-three">   
+    <button class="botton-dis-three" onclick="window.location.href='Legal_advice.html';">   
         <p class="last-one">Legal Advice</p>
         
         <nav class="last-two">
@@ -206,11 +221,12 @@
     <img src="./Representations/icons8-half-turn-100.png" class="half-wit">
 
 
-    <img src="./Pictures/temp-five.png" class="play-time">
+    <img class="play-time">
 
 
     <img src="./Pictures/icons8-chat-bubble-100.png " class="pic-last ">
     <img src="./Pictures/icons8-number-one-66.png " class="num-one ">
+    <img src="./Representations/down.gif" class="num-test">
     <script src="TalkTo.js "></script>
 </body>
 
