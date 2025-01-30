@@ -28,7 +28,7 @@ function changeImage() {
 
 // Call the changeImage function every 3 seconds
 
-setInterval(changeImage, 7000);
+setInterval(changeImage, 20000);
 
 
 
