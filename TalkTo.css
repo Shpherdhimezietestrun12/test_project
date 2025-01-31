@@ -125,10 +125,31 @@ body {
     padding: 20px;
 }
 
-.input-one::placeholder {
+.placeholder-text {
     color: #868686;
     font-size: 35px;
     font-weight: bolder;
+    cursor: text;
+    margin-left: -850px;
+}
+
+.cursor {
+    color: #868686;
+    font-size: 35px;
+    font-weight: bolder;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .input-one:hover,
@@ -197,23 +218,36 @@ body {
 }
 
 .nav-four {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
-.nav-four,
-.nav-six,
-.nav-five,
-.nav-seven {
-    text-decoration: none;
-    margin-left: 0px;
-}
-
-.nav-four li,
-.nav-five li,
-.nav-seven li,
-.nav-six li {
-    display: inline-block;
+.nav-four ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.nav-four li {
+    margin-left: -210px;
+}
+
+.nav-four li:last-child {
+    margin-right: 0;
+}
+
+.nav-four ul::-webkit-scrollbar {
+    height: 0px;
+}
+
+.nav-four ul::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+.nav-four ul::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
 }
 
 .botton-three,
@@ -226,12 +260,13 @@ body {
 .botton-eight {
     width: 450px;
     height: 80px;
-    font-size: 38px;
+    font-size: 30px;
+    font-style: italic;
     color: #10d747;
     border-radius: 20px;
-    font-weight: bolder;
     border-color: #14ff56;
     background-color: transparent;
+    border-width: 0px;
 }
 
 .botton-nine {
@@ -239,11 +274,11 @@ body {
     border-color: #14ff56;
     background-color: transparent;
     height: 80px;
-    font-size: 38px;
+    font-size: 30px;
     border-radius: 20px;
+    font-style: italic;
     color: #14ff56;
-    font-weight: bolder;
-    margin-left: 400px;
+    border-width: 0px;
 }
 
 .botton-display {
@@ -315,7 +350,7 @@ body {
     color: #bdc0ba;
     position: absolute;
     z-index: 2;
-    margin-top: 2250px;
+    margin-top: 2000px;
     margin-left: 45px;
 }
 
@@ -808,56 +843,115 @@ h1 {
 
 .medic-one {
     zoom: 0.5;
-    margin-right: 70px;
-    margin-bottom: -20px;
+    margin-right: 30px;
+    margin-bottom: -10px;
+    margin-left: 300px;
 }
 
 .comp-one {
-    zoom: 0.5;
-    margin-right: 70px;
-    margin-bottom: -20px;
+    zoom: 0.3;
+    margin-right: 30px;
+    margin-bottom: -10px;
+    margin-left: 250px;
 }
 
 .comp-two {
     zoom: 0.5;
-    margin-right: 70px;
-    margin-bottom: -20px;
+    margin-right: 30px;
+    margin-bottom: -10px;
+    margin-left: 80px;
 }
 
 .comp-three {
-    zoom: 0.5;
-    margin-right: 70px;
-    margin-bottom: -20px;
+    zoom: 0.3;
+    margin-right: 30px;
+    margin-bottom: -10px;
+    margin-left: 80px;
 }
 
 .comp-four {
-    zoom: 0.5;
-    margin-right: 70px;
-    margin-bottom: -20px;
+    zoom: 0.3;
+    margin-right: 30px;
+    margin-bottom: -10px;
+    margin-left: -70px;
 }
 
 .comp-five {
     zoom: 0.5;
-    margin-right: 70px;
-    margin-bottom: -20px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    margin-left: -150px;
 }
 
 .comp-six {
-    zoom: 0.5;
-    margin-right: 70px;
-    margin-bottom: -20px;
+    zoom: 0.6;
+    margin-right: 30px;
+    margin-bottom: -5px;
+    margin-left: -100px;
 }
 
 .comp-seven {
-    zoom: 0.5;
-    margin-right: 70px;
+    zoom: 0.3;
+    margin-right: 30px;
     margin-bottom: -20px;
+    margin-left: -100px;
 }
 
 .comp-eight {
-    zoom: 0.6;
-    margin-right: 50px;
-    margin-bottom: -30px;
+    zoom: 0.4;
+    margin-right: 1px;
+    margin-bottom: -25px;
+    margin-left: 220px;
+}
+
+.dot-act {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dot-act li {
+    list-style: none;
+    display: inline;
+}
+
+.dot {
+    zoom: 0.7;
+}
+
+.circle {
+    position: absolute;
+    top: 475px;
+    left: 1780px;
+    zoom: 0.4;
+    visibility: visible;
+    /* this is for the last circle */
+}
+
+.circle-two {
+    position: absolute;
+    top: 475px;
+    left: 1720px;
+    zoom: 0.4;
+    visibility: hidden;
+    /* this is for the second to the last circle */
+}
+
+.circle-three {
+    position: absolute;
+    top: 475px;
+    left: 1657px;
+    zoom: 0.4;
+    visibility: hidden;
+    /* this is for the third to the last circle  */
+}
+
+.circle-four {
+    position: absolute;
+    top: 475px;
+    left: 1595px;
+    zoom: 0.4;
+    visibility: hidden;
+    /* this is for the first circle */
 }
 
 h2 {
