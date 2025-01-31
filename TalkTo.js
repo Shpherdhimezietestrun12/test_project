@@ -1,3 +1,37 @@
+// for the placeholder for the input-one 
+
+
+const placeholderText = document.querySelector('.placeholder-text');
+const cursor = document.querySelector('.cursor');
+const text = 'How may we be of assistance...';
+const placeholderInput = document.querySelector('.input-one');
+
+let i = 0;
+
+const writeText = () => {
+    if (i < text.length) {
+        placeholderText.textContent = text.slice(0, i + 1);
+        i++;
+        setTimeout(writeText, 1100); // adjust the speed here
+    } else {
+        cursor.style.animationPlayState = 'running';
+    }
+};
+
+writeText();
+
+
+placeholderInput.addEventListener('focus', () => {
+    placeholderText.remove();
+    cursor.remove();
+});
+
+
+
+
+
+
+
 // the second display
 const picLast = document.querySelector('.pic-last');
 const numOne = document.querySelector('.num-one');
@@ -63,3 +97,5 @@ buttonThree.addEventListener('click', () => {
     ImageOne.style.visibility = 'hidden';
     ImageTwo.style.visibility = 'hidden';
 });
+
+// the end of the ......
