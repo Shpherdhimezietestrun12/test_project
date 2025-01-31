@@ -205,7 +205,7 @@ body {
 .nav-five,
 .nav-seven {
     text-decoration: none;
-    margin-left: 100px;
+    margin-left: 0px;
 }
 
 .nav-four li,
@@ -224,7 +224,7 @@ body {
 .botton-six,
 .botton-seven,
 .botton-eight {
-    width: 350px;
+    width: 450px;
     height: 80px;
     font-size: 38px;
     color: #10d747;
@@ -235,7 +235,7 @@ body {
 }
 
 .botton-nine {
-    width: 150px;
+    width: 220px;
     border-color: #14ff56;
     background-color: transparent;
     height: 80px;
@@ -730,4 +730,58 @@ h1 {
     margin-right: 50px;
     margin-bottom: 40px;
     border-radius: 900px;
+}
+
+.medic-one {
+    zoom: 0.5;
+    margin-right: 70px;
+    margin-bottom: -20px;
+}
+
+.comp-one {
+    zoom: 0.5;
+    margin-right: 70px;
+    margin-bottom: -20px;
+}
+
+.comp-two {
+    zoom: 0.5;
+    margin-right: 70px;
+    margin-bottom: -20px;
+}
+
+.comp-three {
+    zoom: 0.5;
+    margin-right: 70px;
+    margin-bottom: -20px;
+}
+
+.comp-four {
+    zoom: 0.5;
+    margin-right: 70px;
+    margin-bottom: -20px;
+}
+
+.comp-five {
+    zoom: 0.5;
+    margin-right: 70px;
+    margin-bottom: -20px;
+}
+
+.comp-six {
+    zoom: 0.5;
+    margin-right: 70px;
+    margin-bottom: -20px;
+}
+
+.comp-seven {
+    zoom: 0.5;
+    margin-right: 70px;
+    margin-bottom: -20px;
+}
+
+.comp-eight {
+    zoom: 0.6;
+    margin-right: 50px;
+    margin-bottom: -30px;
 }
