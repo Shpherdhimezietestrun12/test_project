@@ -883,3 +883,40 @@ h2 {
     font-size: 35px;
     text-align: center;
 }
+
+.por-one {
+    color: white;
+    text-align: center;
+    margin-left: -250px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.por-one li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.por-two {
+    color: white;
+    text-align: center;
+    margin-top: -86px;
+    margin-left: 205px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.por-two li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.por-two li {
+    list-style: none;
+}
+
+.por-three {
+    zoom: 0.3;
+    margin-left: 30px;
+    margin-bottom: -20px;
+}
