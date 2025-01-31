@@ -584,6 +584,17 @@ h1 {
     /* apply blur effect to background */
 }
 
+.button-setup:focus {
+    background-color: rgba(0, 50, 0, 1.5);
+    /* translucent greenish-black background */
+    opacity: 0.7;
+    /* adjust transparency */
+    box-shadow: 0 0 10px rgba(0, 50, 0, 1.5);
+    /* blur effect with green mix */
+    backdrop-filter: blur(10px);
+    /* apply blur effect to background */
+}
+
 .button-setup-two {
     width: 660px;
     height: 290px;
@@ -596,6 +607,44 @@ h1 {
     /* adjust transparency */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     /* blur effect with a white mix */
+    backdrop-filter: blur(10px);
+    /* apply blur effect to background */
+}
+
+.button-setup-two:focus {
+    background-color: rgba(20, 20, 20, 1.5);
+    /* translucent dark gray background with a hint of white */
+    opacity: 0.7;
+    /* adjust transparency */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1.6);
+    /* blur effect with a white mix */
+    backdrop-filter: blur(10px);
+    /* apply blur effect to background */
+}
+
+.button-setup-three {
+    width: 660px;
+    height: 290px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: green;
+    background-color: rgba(0, 50, 0, 0.3);
+    /* translucent greenish-black background */
+    opacity: 0.7;
+    /* adjust transparency */
+    box-shadow: 0 0 10px rgba(0, 50, 0, 0.3);
+    /* blur effect with green mix */
+    backdrop-filter: blur(10px);
+    /* apply blur effect to background */
+}
+
+.button-setup-three:focus {
+    background-color: rgba(0, 50, 0, 1.5);
+    /* translucent greenish-black background */
+    opacity: 0.7;
+    /* adjust transparency */
+    box-shadow: 0 0 10px rgba(0, 50, 0, 1.5);
+    /* blur effect with green mix */
     backdrop-filter: blur(10px);
     /* apply blur effect to background */
 }
@@ -686,31 +735,56 @@ h1 {
     zoom: 3;
 }
 
-.play-time {
+.but-one {
     zoom: 0.9;
     position: absolute;
     margin-left: -1000px;
     margin-top: 50px;
-    display: ;
+    visibility: visible;
     border-radius: 30px;
 }
 
-.play-time-two {
+.but-two {
     zoom: 0.9;
     position: absolute;
     margin-left: -1050px;
     margin-top: 50px;
-    display: none;
+    visibility: hidden;
     border-radius: 30px;
 }
 
-.play-time-three {
+.but-three {
     zoom: 0.9;
     position: absolute;
     margin-left: -950px;
     margin-top: 50px;
-    display: none;
+    visibility: hidden;
+}
+
+.but-one {
+    zoom: 0.9;
+    position: absolute;
+    margin-left: -1000px;
+    margin-top: 50px;
+    visibility: visible;
     border-radius: 30px;
+}
+
+.but-two {
+    zoom: 0.9;
+    position: absolute;
+    margin-left: -1050px;
+    margin-top: 50px;
+    visibility: hidden;
+    border-radius: 30px;
+}
+
+.but-three {
+    zoom: 0.9;
+    position: absolute;
+    margin-left: -950px;
+    margin-top: 50px;
+    visibility: hidden;
 }
 
 .play-up {
