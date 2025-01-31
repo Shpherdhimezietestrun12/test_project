@@ -915,6 +915,6 @@ h2 {
 
 .por-three {
     zoom: 0.3;
-    margin-left: 30px;
-    margin-bottom: -20px;
+    padding: 20px;
+    margin-bottom: -50px;
 }
