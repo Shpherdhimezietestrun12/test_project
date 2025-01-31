@@ -872,22 +872,21 @@ h2 {
 
 .par-two {
     color: #14ff56;
-    margin-top: -35px;
+    margin-top: -30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .par-three {
     color: #14ff56;
-    margin-top: -35px;
-    font-size: 35px;
+    margin-top: -30px;
+    font-size: 30px;
     text-align: center;
 }
 
 .por-one {
     color: white;
     text-align: center;
-    margin-left: -250px;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -900,8 +899,7 @@ h2 {
 .por-two {
     color: white;
     text-align: center;
-    margin-top: -86px;
-    margin-left: 205px;
+    margin-top: -5px;
     font-size: 20px;
     font-weight: bolder;
 }
