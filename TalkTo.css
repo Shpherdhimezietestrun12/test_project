@@ -859,3 +859,27 @@ h1 {
     margin-right: 50px;
     margin-bottom: -30px;
 }
+
+h2 {
+    margin-top: 700px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 60px;
+}
+
+.par-two {
+    color: #14ff56;
+    margin-top: -35px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.par-three {
+    color: #14ff56;
+    margin-top: -35px;
+    font-size: 40px;
+    text-align: center;
+}
