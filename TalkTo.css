@@ -483,39 +483,47 @@ body {
     list-style: none;
 }
 
+.extra-sus {
+    margin-left: -60px;
+}
+
 .menu-ten {
-    margin-left: -220px;
+    margin-left: -80px;
 }
 
 .menu-three {
-    margin-left: -170px;
+    margin-left: 20px;
     color: #14ff56;
 }
 
 .menu-four {
-    margin-left: -85px;
+    margin-left: -145px;
 }
 
 .menu-five {
-    margin-left: -50px;
+    margin-left: -70px;
 }
 
 .menu-six {
-    margin-left: -170px;
+    margin-left: -70px;
     color: #14ff56;
 }
 
 .menu-seven {
-    margin-left: -130px;
+    margin-left: -160px;
 }
 
 .menu-eight {
-    margin-left: -50px;
+    margin-left: 0px;
 }
 
 .menu-nine {
-    margin-left: -85px;
+    margin-left: -95px;
     color: #14ff56;
+}
+
+.extra-one {
+    margin-left: -210px;
 }
 
 .botton-dis-three {
@@ -916,7 +924,7 @@ h1 {
 .dot-act {
     text-align: center;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 5px;
 }
 
 .dot-act li {
@@ -947,14 +955,14 @@ h2 {
 
 .par-two {
     color: #14ff56;
-    margin-top: -30px;
+    margin-top: -20px;
     text-align: center;
     font-size: 30px;
 }
 
 .par-three {
     color: #14ff56;
-    margin-top: -30px;
+    margin-top: -20px;
     font-size: 30px;
     text-align: center;
 }
@@ -967,7 +975,7 @@ h2 {
 }
 
 .por-one li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     list-style: none;
 }
 
@@ -980,7 +988,7 @@ h2 {
 }
 
 .por-two li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     list-style: none;
 }
 
@@ -992,4 +1000,80 @@ h2 {
     zoom: 0.3;
     padding: 20px;
     margin-bottom: -50px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+.frame-one {
+    top: 250px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    position: relative;
+    height: 1100px;
+    background-color: rgba(20, 20, 20, 0.2);
+    /* translucent dark gray background with a hint of white */
+    opacity: 0.7;
+    /* adjust transparency */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1.4);
+    /* blur effect with a white mix */
+    backdrop-filter: blur(10px);
+    /* apply blur effect to background */
+}
+
+.arrow-two {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    zoom: 1.0;
+    text-align: center;
+    margin-bottom: -130px;
+}
+
+.think-one {
+    overflow-x: hidden;
+    margin-top: 230px;
+}
+
+.think-one ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.think-one li {
+    padding: 15px;
+    display: inline-block;
+}
+
+.think-one li:last-child {
+    margin-right: 0;
+}
+
+.think-one ul::-webkit-scrollbar {
+    height: 0px;
+}
+
+.think-one ul::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+.think-one ul::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
+
+.think {
+    width: 300px;
+    height: 300px;
+    border-color: green;
+    background-color: rgba(20, 20, 20, 0.2);
+    /* translucent dark gray background with a hint of white */
+    opacity: 0.7;
+    /* adjust transparency */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 2);
+    /* blur effect with a white mix */
+    backdrop-filter: blur(10px);
+    /* apply blur effect to background */
 }
