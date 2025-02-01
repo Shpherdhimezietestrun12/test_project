@@ -99,3 +99,27 @@ buttonThree.addEventListener('click', () => {
 });
 
 // the end of the ......
+
+
+
+
+
+// this is for the button list selection
+
+
+const navFourUl = document.querySelector('.nav-four ul');
+let translateX = 0;
+let speed = -1;
+
+function slide() {
+    translateX += speed;
+    navFourUl.style.transform = `translateX(${translateX}px)`;
+
+    if (translateX < -navFourUl.offsetWidth) {
+        translateX = 0;
+    }
+
+    requestAnimationFrame(slide);
+}
+
+slide();
