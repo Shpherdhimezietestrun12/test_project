@@ -123,3 +123,22 @@ function slide() {
 }
 
 slide();
+
+
+
+const ThinkOneUl = document.querySelector('.think-one ul');
+
+
+
+function slideOne() {
+    translateX += speed;
+    ThinkOneUl.style.transform = `translateX(${translateX}px)`;
+
+    if (translateX < -ThinkOneUl.offsetWidth) {
+        translateX = 0;
+    }
+
+    requestAnimationFrame(slideOne);
+}
+
+slideOne();
