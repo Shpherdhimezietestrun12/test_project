@@ -66,6 +66,11 @@ body {
     margin-left: -150px;
 }
 
+.nav-two span {
+    font-size: 50px;
+    /* adjust the size as needed */
+}
+
 .one-two {
     font-size: 20px;
     font-weight: bold;
