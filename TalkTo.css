@@ -944,7 +944,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 700px;
+    margin-top: 850px;
     color: white;
     text-align: center;
     font-style: italic;
@@ -1007,6 +1007,7 @@ h2 {
     width: 830px;
     height: 800px;
     border-color: green;
+    border-radius: 40px;
     background-color: rgba(20, 20, 20, 0.2);
     /* translucent dark gray background with a hint of white */
     opacity: 0.7;
@@ -1022,4 +1023,93 @@ h2 {
     bottom: 0;
     zoom: 2.5;
     left: 48%;
+}
+
+.acc-one {
+    margin-top: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.acc-one li {
+    list-style: none;
+    display: inline-block;
+}
+
+.dot-two {
+    margin-bottom: -25px;
+    zoom: 0.6;
+}
+
+.dot-three {
+    margin-bottom: -25px;
+    zoom: 0.6;
+    margin-left: -83px;
+}
+
+.acc-two {
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.acc-three {
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.plc-one {
+    left: 45%;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* translucent greenish-black background */
+    opacity: 0.7;
+    /* adjust transparency */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    /* blur effect with green mix */
+    backdrop-filter: blur(10px);
+    /* apply blur effect to background */
+    width: 130px;
+    height: 130px;
+    position: relative;
+    border-radius: 20px;
+    align-content: center;
+}
+
+.to-one {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    margin-top: 35px;
+    font-weight: bolder;
+}
+
+.to-two {
+    color: green;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+.to-three {
+    color: green;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    margin-top: -20px;
+    margin-bottom: 70px;
+}
+
+.pic-tab {
+    zoom: 0.8;
+    left: 20%;
+    position: relative;
 }
