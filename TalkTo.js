@@ -126,6 +126,8 @@ slide();
 
 
 
+
+
 const ThinkOneUl = document.querySelector('.think-one ul');
 
 
@@ -142,3 +144,22 @@ function slideOne() {
 }
 
 slideOne();
+
+
+
+const ThinkTwoUl = document.querySelector('.think-two ul');
+
+
+
+function slideTwo() {
+    translateX += speed;
+    ThinkTwoUl.style.transform = `translateX(${translateX}px)`;
+
+    if (translateX < -ThinkTwoUl.offsetWidth) {
+        translateX = 0;
+    }
+
+    requestAnimationFrame(slideTwo);
+}
+
+slideTwo();
