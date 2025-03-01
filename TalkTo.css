@@ -1127,12 +1127,14 @@ h2 {
 
 .zoom-one {
     zoom: 0.7;
+    border-radius: 20px;
     position: relative;
     margin-right: 30px;
 }
 
 .zoom-two {
     zoom: 0.7;
+    border-radius: 20px;
     position: relative;
     margin-right: -110px;
     margin-bottom: 120px;
@@ -1140,6 +1142,7 @@ h2 {
 }
 
 .zoom-three {
+    border-radius: 20px;
     position: relative;
     z-index: 1;
     zoom: 0.7;
@@ -1148,6 +1151,7 @@ h2 {
 }
 
 .zoom-four {
+    border-radius: 20px;
     position: relative;
     zoom: 0.7;
     margin-top: -60px;
