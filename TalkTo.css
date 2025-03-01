@@ -1113,3 +1113,42 @@ h2 {
     left: 17%;
     position: relative;
 }
+
+.act-find {
+    margin-top: 150px;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+}
+
+.act-find li {
+    display: inline-block;
+}
+
+.zoom-one {
+    zoom: 0.7;
+    position: relative;
+    margin-right: 30px;
+}
+
+.zoom-two {
+    zoom: 0.7;
+    position: relative;
+    margin-right: -110px;
+    margin-bottom: 120px;
+    overflow: auto;
+}
+
+.zoom-three {
+    position: relative;
+    z-index: 1;
+    zoom: 0.7;
+    margin-left: -60px;
+    margin-bottom: -90px;
+}
+
+.zoom-four {
+    position: relative;
+    zoom: 0.7;
+    margin-top: -60px;
+}
