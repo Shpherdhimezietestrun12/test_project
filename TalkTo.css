@@ -1022,7 +1022,7 @@ h2 {
     position: fixed;
     bottom: 0;
     zoom: 2.5;
-    left: 48%;
+    left: 45.5%;
 }
 
 .acc-one {
@@ -1044,7 +1044,7 @@ h2 {
 .dot-three {
     margin-bottom: -25px;
     zoom: 0.6;
-    margin-left: -83px;
+    margin-left: -86px;
 }
 
 .acc-two {
@@ -1066,7 +1066,7 @@ h2 {
 }
 
 .plc-one {
-    left: 45%;
+    left: 43%;
     background-color: rgba(255, 255, 255, 0.2);
     /* translucent greenish-black background */
     opacity: 0.7;
@@ -1075,8 +1075,8 @@ h2 {
     /* blur effect with green mix */
     backdrop-filter: blur(10px);
     /* apply blur effect to background */
-    width: 130px;
-    height: 130px;
+    width: 170px;
+    height: 170px;
     position: relative;
     border-radius: 20px;
     align-content: center;
@@ -1085,7 +1085,7 @@ h2 {
 .to-one {
     color: white;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
     margin-top: 35px;
     font-weight: bolder;
@@ -1094,7 +1094,7 @@ h2 {
 .to-two {
     color: green;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     font-style: normal;
     margin-top: 25px;
 }
@@ -1102,14 +1102,14 @@ h2 {
 .to-three {
     color: green;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     font-style: normal;
     margin-top: -20px;
     margin-bottom: 70px;
 }
 
 .pic-tab {
-    zoom: 0.8;
-    left: 20%;
+    zoom: 1.2;
+    left: 17%;
     position: relative;
 }
