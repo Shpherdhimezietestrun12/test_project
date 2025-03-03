@@ -163,3 +163,41 @@ function slideTwo() {
 }
 
 slideTwo();
+
+
+const ThinkThreeUl = document.querySelector('.apt-two ul');
+
+
+
+function slideThree() {
+    translateX += speed;
+    ThinkThreeUl.style.transform = `translateX(${translateX}px)`;
+
+    if (translateX < -ThinkThreeUl.offsetWidth) {
+        translateX = 0;
+    }
+
+    requestAnimationFrame(slideThree);
+}
+
+slideThree();
+
+
+
+
+const ThinkfourUl = document.querySelector('.apt-ppo ul');
+
+
+
+function slidefour() {
+    translateX += speed;
+    ThinkfourUl.style.transform = `translateX(${translateX}px)`;
+
+    if (translateX < -ThinkfourUl.offsetWidth) {
+        translateX = 0;
+    }
+
+    requestAnimationFrame(slidefour);
+}
+
+slidefour();
