@@ -44,7 +44,7 @@ body {
 .one-one li {
     display: inline-block;
     list-style: none;
-    padding: 15px;
+    padding: 10px;
 }
 
 .second-nav {
@@ -1269,7 +1269,7 @@ h2 {
 
 .div-act {
     margin-top: 300px;
-    width: 98%;
+    width: 99%;
     text-align: center;
     height: 1600px;
     background-color: rgba(0, 50, 0, 0.3);
@@ -1289,7 +1289,7 @@ h2 {
     color: #ffffff;
     font-style: italic;
     font-weight: bolder;
-    font-size: 65px;
+    font-size: 55px;
     margin-top: 0px;
     position: relative;
     top: 100px;
@@ -1299,16 +1299,24 @@ h2 {
 .edit-one {
     color: #00ff48;
     text-align: center;
-    font-size: 15px;
+    font-size: 35px;
     font-style: normal;
-    font-weight: bolder;
-    margin-top: 225px;
+    margin-top: 165px;
+}
+
+.edit-pay {
+    color: #00ff48;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    margin-top: -25px;
 }
 
 .edit-two {
     color: #00ff48;
     text-align: center;
-    font-size: 15px;
+    font-size: 35px;
+    margin-top: -25px;
     font-style: normal;
     font-weight: bolder;
 }
@@ -1316,9 +1324,9 @@ h2 {
 .edit-three {
     color: #00ff48;
     text-align: center;
-    font-size: 15px;
+    font-size: 35px;
     font-style: normal;
-    margin-top: 105px;
+    margin-top: 75px;
     font-weight: bolder;
 }
 
@@ -1329,12 +1337,12 @@ h2 {
 }
 
 .butt-one {
-    margin-top: 80px;
-    width: 160px;
+    margin-top: 50px;
+    width: 250px;
     font-weight: bolder;
-    height: 80px;
+    height: 120px;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 35px;
     border-radius: 20px;
     background-color: rgb(0, 0, 0);
     opacity: 10;
@@ -1358,7 +1366,7 @@ h2 {
 }
 
 .apt-two li {
-    padding: 165px;
+    padding: 105px;
     display: inline-block;
 }
 
@@ -1385,18 +1393,6 @@ h2 {
     font-size: 60px;
     text-align: center;
     margin-top: 0px;
-}
-
-.apt-two {
-    overflow-x: hidden;
-    text-decoration: none;
-}
-
-.apt-two ul {
-    list-style: none;
-    margin: 0;
-    display: flex;
-    flex-wrap: nowrap;
 }
 
 .apt-ppo {
