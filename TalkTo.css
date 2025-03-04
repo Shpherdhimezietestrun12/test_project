@@ -1403,7 +1403,7 @@ h2 {
 }
 
 .apt-ppo li {
-    padding: 110px;
+    padding: 60px;
     display: inline-block;
 }
 
@@ -1452,24 +1452,13 @@ h2 {
     padding-bottom: 10px;
     /* add this line */
     position: relative;
-}
-
-.footer-container:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    margin-top: -80px;
-    left: 40px;
-    /* gap on the left */
-    right: 40px;
-    /* gap on the right */
     border-top: 2px solid #00ff48;
 }
 
 .lib-one {
     text-decoration: none;
     color: #00ff48;
-    font-size: 31px;
+    font-size: 28px;
     margin-top: 100px;
 }
 
@@ -1486,7 +1475,7 @@ h2 {
     text-decoration: none;
     color: #00ff48;
     text-align: end;
-    font-size: 31px;
+    font-size: 28px;
     margin-top: -280px;
     margin-right: 494px;
 }
@@ -1496,19 +1485,23 @@ h2 {
 }
 
 .parag-three {
-    margin-right: 93px;
+    margin-right: 99px;
+}
+
+.parag-play {
+    margin-right: 15px;
 }
 
 .parag-four {
-    margin-right: 62px;
+    margin-right: 73px;
 }
 
 .parag-five {
-    margin-right: -13px;
+    margin-right: -12px;
 }
 
 .parag-six {
-    margin-right: 15px;
+    margin-right: 26px;
 }
 
 .para-two {
@@ -1516,10 +1509,14 @@ h2 {
     font-weight: bolder;
 }
 
+.parag-seven {
+    margin-right: 15px;
+}
+
 .lib-three {
     text-decoration: none;
     color: #00ff48;
-    font-size: 31px;
+    font-size: 28px;
     margin-top: 200px;
 }
 
@@ -1536,8 +1533,8 @@ h2 {
     text-decoration: none;
     color: #00ff48;
     text-align: end;
-    font-size: 31px;
-    margin-right: 494px;
+    font-size: 28px;
+    margin-right: 524px;
     margin-top: -100px;
 }
 
@@ -1552,7 +1549,7 @@ h2 {
 }
 
 .e123-p {
-    zoom: 0.4;
+    zoom: 0.5;
     margin-bottom: -30px;
     margin-left: 20px;
 }
