@@ -1477,7 +1477,6 @@ h2 {
     text-align: end;
     font-size: 28px;
     margin-top: -280px;
-    margin-right: 494px;
 }
 
 .lib-two li {
@@ -1534,7 +1533,6 @@ h2 {
     color: #00ff48;
     text-align: end;
     font-size: 28px;
-    margin-right: 524px;
     margin-top: -100px;
 }
 
@@ -1563,6 +1561,7 @@ h2 {
     color: #00ff48;
     text-align: center;
     margin-top: 127px;
+    font-size: 15px;
 }
 
 .lastl-two {
