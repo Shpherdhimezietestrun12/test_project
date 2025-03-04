@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    margin-bottom: 2000px;
+    margin-bottom: -100px;
 }
 
 .main-one {
@@ -29,7 +29,7 @@ body {
     right: 0;
     left: 0;
     position: absolute;
-    height: 1500px;
+    height: 2000px;
     background-size: cover;
     /* Add this property */
 }
@@ -44,7 +44,7 @@ body {
 .one-one li {
     display: inline-block;
     list-style: none;
-    padding: 10px;
+    padding: 13px;
 }
 
 .second-nav {
@@ -81,6 +81,7 @@ body {
 .pic-one {
     zoom: 1.0;
     margin-bottom: -30px;
+    margin-left: -20px;
 }
 
 .one-three {
@@ -1331,8 +1332,8 @@ h2 {
 }
 
 .pict-one {
-    zoom: 0.3;
-    margin-bottom: -28px;
+    zoom: 0.5;
+    margin-bottom: -22px;
     margin-right: 40px;
 }
 
@@ -1396,12 +1397,13 @@ h2 {
 }
 
 .apt-ppo {
+    margin-top: -130px;
     overflow-x: hidden;
     text-decoration: none;
 }
 
 .apt-ppo li {
-    padding: 65px;
+    padding: 110px;
     display: inline-block;
 }
 
@@ -1422,7 +1424,11 @@ h2 {
 }
 
 .ppo {
-    zoom: 0.5;
+    zoom: 0.2;
+}
+
+.ppy {
+    zoom: 0.4;
 }
 
 .atp-one {
@@ -1440,4 +1446,135 @@ h2 {
 
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 
-.footer-container {}
+.footer-container {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 10px;
+    /* add this line */
+    position: relative;
+}
+
+.footer-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    margin-top: -80px;
+    left: 40px;
+    /* gap on the left */
+    right: 40px;
+    /* gap on the right */
+    border-top: 2px solid #00ff48;
+}
+
+.lib-one {
+    text-decoration: none;
+    color: #00ff48;
+    font-size: 31px;
+    margin-top: 100px;
+}
+
+.lib-one li {
+    list-style: none;
+}
+
+.para-one {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.lib-two {
+    text-decoration: none;
+    color: #00ff48;
+    text-align: end;
+    font-size: 31px;
+    margin-top: -280px;
+    margin-right: 494px;
+}
+
+.lib-two li {
+    list-style: none;
+}
+
+.parag-three {
+    margin-right: 93px;
+}
+
+.parag-four {
+    margin-right: 62px;
+}
+
+.parag-five {
+    margin-right: -13px;
+}
+
+.parag-six {
+    margin-right: 15px;
+}
+
+.para-two {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.lib-three {
+    text-decoration: none;
+    color: #00ff48;
+    font-size: 31px;
+    margin-top: 200px;
+}
+
+.lib-three ul {
+    list-style: none;
+}
+
+.para-three {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.lib-four {
+    text-decoration: none;
+    color: #00ff48;
+    text-align: end;
+    font-size: 31px;
+    margin-right: 494px;
+    margin-top: -100px;
+}
+
+.lib-four li {
+    list-style: none;
+}
+
+.para-four {
+    font-size: 35px;
+    margin-right: 14px;
+    font-weight: bolder;
+}
+
+.e123-p {
+    zoom: 0.4;
+    margin-bottom: -30px;
+    margin-left: 20px;
+}
+
+.img-last {
+    zoom: 0.3;
+    margin-bottom: -27px;
+}
+
+.lastl-one {
+    color: #00ff48;
+    text-align: center;
+    margin-top: 127px;
+}
+
+.lastl-two {
+    color: #00ff48;
+    text-decoration: none;
+    text-align: center;
+}
+
+.lastl-two li {
+    list-style: none;
+    display: inline-block;
+}
