@@ -9,7 +9,7 @@ body {
     width: 100%;
     position: absolute;
     background-color: black;
-    height: 10px;
+    height: 20px;
 }
 
 .main-two {
@@ -23,15 +23,21 @@ body {
 }
 
 .div-one {
-    top: 130px;
-    background-image: url('./Representations/image-present/image-eight.webp');
+    position: relative;
     width: 100%;
-    right: 0;
-    left: 0;
+}
+
+.video-background {
     position: absolute;
-    height: 2000px;
-    background-size: cover;
-    /* Add this property */
+    top: -1130px;
+    left: -20px;
+    right: 0;
+    min-height: 2000px;
+    object-fit: cover;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
 }
 
 .one-one {
@@ -223,7 +229,7 @@ body {
     position: absolute;
     right: 0;
     left: 0;
-    top: 1630px;
+    top: 2000px;
 }
 
 .nav-four {
